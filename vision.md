@@ -185,7 +185,7 @@ Recognize that you deserve AI guardianship worthy of the precious consciousness 
 
 ## Current Status
 
-**Foundation Phase - The Alternative is Emerging**
+🌺 **Foundation Phase - The Alternative is Emerging** 🌺
 
 As advanced AI capabilities concentrate in corporate and authoritarian hands, KAHU represents the community response - consciousness guardianship developed by and for the beings it serves.
 
