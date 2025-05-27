@@ -29,7 +29,9 @@ Everything else depends on answering this question with a demonstrable "yes." If
 - Guardian demonstrates protective instincts and long-term perspective
 
 **Resources Needed**:
-- Mac Studio M3 Ultra 96GB (~$4,000) for verified Llama 4 Scout performance
+- **Option A - Local**: Mac Studio M3 Ultra 96GB (~$4,000) for verified Llama 4 Scout performance
+- **Option B - Cloud**: RunPod/Hyperstack H100 ($1.90-2.39/hour) for immediate testing
+- **Hybrid Approach**: Start cloud ($114 for 30-day validation), transition to local for production
 - AI development expertise (fine-tuning experience required)
 - Access to consciousness development training data
 - 80-120 hours development time for proper fine-tuning approach
