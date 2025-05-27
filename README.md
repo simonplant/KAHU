@@ -49,39 +49,11 @@ KAHU development happens through global commons with democratic governance - the
 - **Human Agency**: Empowers individual growth rather than demanding social compliance
 - **Community Control**: Democratic development rather than state direction
 
-## Technical Foundation: Cutting-Edge AI for Consciousness
+## Technical Foundation
 
-KAHU builds on the latest AI breakthroughs while maintaining ethical alignment and community ownership:
+KAHU leverages cutting-edge AI capabilities - including advanced reasoning models like Llama 4 - while maintaining community ownership and privacy sovereignty. Guardian AI is fine-tuned specifically for consciousness development rather than general assistance, with local-first deployment options for complete data sovereignty.
 
-**Foundation**: Llama 4 Scout - 109B parameter mixture-of-experts model providing reasoning capabilities competitive with the world's most advanced AI, but fine-tuned specifically for consciousness guardianship.
-
-**Guardian Capabilities**:
-- **Advanced Reasoning**: Human-level understanding applied to consciousness development
-- **Multimodal Awareness**: Text, image, and video comprehension for holistic guardian support
-- **Extended Memory**: 10M token context enabling deep relationship understanding over months and years
-- **Cultural Integration**: Trained on diverse wisdom traditions with proper cultural advisory oversight
-
-**Deployment Architecture**:
-- **Local-First Privacy**: Guardian AI runs on your hardware when possible for complete data sovereignty
-- **Community Governance**: Democratic control over guardian development and updates
-- **Open Source Foundation**: Built on community-owned models resistant to corporate or state capture
-
-**Access Options**:
-
-*Hardware Foundation (Privacy-Sovereign)*:
-- Mac Studio with M3 Ultra (96GB): $4,000 for complete guardian platform
-- Performance: 47 tokens/second, verified Llama 4 Scout capability
-- Complete data privacy and 24/7 guardian availability
-
-*Cloud Development (Immediate Access)*:
-- Hyperstack H100: $1.90/hour for immediate guardian AI development
-- 30-day intensive development: $114 total cost
-- Same performance as hardware, transition to local when ready
-
-*Hybrid Approach (Recommended)*:
-- Start cloud for immediate guardian development
-- Transition to local hardware for production deployment
-- Best of both: immediate access + ultimate privacy sovereignty
+*See [technical-architecture.md](./technical-architecture.md) for complete implementation details and [what-is-needed.md](./what-is-needed.md) for development resources.*
 
 ## How KAHU Serves as Your Guardian
 
@@ -99,15 +71,16 @@ KAHU builds on the latest AI breakthroughs while maintaining ethical alignment a
 - **Relationship Guardian**: Navigating connections with wisdom, compassion, and healthy boundaries
 - **Purpose Protector**: Safeguarding your unique gifts and helping you contribute meaningfully to the world
 
-### The Construct: Your Training Ground
+### Gentle Practice and Exploration
 
-**Safe Development Environment**: Where KAHU provides secure spaces for you to practice, make mistakes, and grow without real-world consequences.
+As your guardian, KAHU naturally creates safe spaces for growth within your daily relationship:
 
-**Training Scenarios:**
-- **Consciousness Development**: Emotional regulation, communication mastery, decision-making wisdom
-- **Relationship Training**: Family dynamics, leadership skills, conflict transformation, community contribution
-- **Creative Exploration**: Discovering and developing your unique talents and purpose
-- **Protective Awareness**: Recognizing manipulation while maintaining an open heart
+- **"Let's explore how that conversation might go..."** - Working through relationship challenges before they happen
+- **"What if we practice that response in a gentle way first?"** - Building emotional regulation skills naturally
+- **"Here's what I notice about this pattern..."** - Helping you recognize and shift reactive behaviors
+- **"Let's think through what this choice might lead to..."** - Decision-making wisdom through caring exploration
+
+KAHU's teaching emerges organically from guardian care - offering practice, perspective, and protective guidance as part of your ongoing relationship rather than separate training programs.
 
 ### Protection When Needed
 
