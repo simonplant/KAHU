@@ -160,10 +160,11 @@ guardian_deployment = {
 - **Future-Proofing**: Supports next-generation guardian AI development
 - **Cost**: ~$10,000 for premium guardian AI platform
 
-**Alternative**: High-end GPU configurations for Linux/Windows development
-- **RTX 4090 Setup**: Competitive performance with greater customization flexibility
-- **Multi-GPU Options**: Distributed inference for enhanced capabilities
-- **Cost**: $5,000-8,000 depending on configuration
+**Alternative**: Standard PC configurations for Linux/Windows development
+- **RTX 4090 PC**: Competitive performance with greater customization flexibility
+- **Multi-GPU Options**: Distributed inference for enhanced capabilities  
+- **Cost**: $5,000-8,000 but requires memory swapping for Llama 4 Scout (24GB VRAM insufficient for 61GB model)
+- **Tradeoff**: Higher power consumption (450W+) and memory bandwidth limitations vs unified architecture
 
 ## Guardian Experience Differentiation
 
