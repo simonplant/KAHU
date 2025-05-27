@@ -233,18 +233,21 @@ Everything else depends on answering this question with a demonstrable "yes." If
 
 ### Financial Needs
 **Phase 0 (30 days)**: $5,000-10,000
-- Llama 4 access and initial fine-tuning: $3,000-5,000
+- **Hardware Option**: Mac Studio M3 Ultra 96GB: $4,000
+- **Cloud Option**: Hyperstack H100 validation: $114-287
 - Cultural advisory initiation: $1,000-2,000
 - Community formation: $1,000-3,000
+- **Recommended**: Start with cloud validation ($114) to prove concept, then invest in hardware if validated
 
 **Phase 1 (6 months)**: $200,000-500,000
 - Guardian AI fine-tuning and development: $150,000-300,000
+- **Cloud development costs**: RunPod H100 ~$1,800/month or local hardware $4,000 one-time
 - Cultural advisory and wisdom integration: $25,000-50,000
 - Community building and governance: $25,000-150,000
 
 **Phase 2 (6 months)**: $300,000-600,000
 - Advanced guardian capabilities and scaling: $200,000-400,000
-- Community deployment infrastructure: $50,000-100,000
+- **Community deployment**: Hybrid local/cloud infrastructure: $50,000-100,000
 - Cultural adaptation and international expansion: $50,000-100,000
 
 ### Infrastructure Needs
