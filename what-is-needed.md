@@ -230,22 +230,20 @@ Everything else depends on answering this question with a demonstrable "yes." If
 ## Resource Requirements
 
 ### Financial Needs
-**Phase 0 (30 days)**: $3,000-5,000
-- Hardware/API testing: $2,500-5,000
-- Community outreach: $500
-- Cultural advisory: $500-1,000
+**Phase 0 (30 days)**: $5,000-10,000
+- Llama 4 access and initial fine-tuning: $3,000-5,000
+- Cultural advisory initiation: $1,000-2,000
+- Community formation: $1,000-3,000
 
-**Phase 1 (6 months)**: $50,000-100,000
-- Technical lead salary: $30,000-60,000
-- Community manager: $15,000-30,000
-- Cultural advisory: $2,000-5,000
-- Infrastructure costs: $3,000-5,000
+**Phase 1 (6 months)**: $200,000-500,000
+- Guardian AI fine-tuning and development: $150,000-300,000
+- Cultural advisory and wisdom integration: $25,000-50,000
+- Community building and governance: $25,000-150,000
 
-**Phase 2 (6 months)**: $100,000-200,000
-- Full development team
-- International expansion
-- Infrastructure scaling
-- Community support
+**Phase 2 (6 months)**: $300,000-600,000
+- Advanced guardian capabilities and scaling: $200,000-400,000
+- Community deployment infrastructure: $50,000-100,000
+- Cultural adaptation and international expansion: $50,000-100,000
 
 ### Infrastructure Needs
 **Immediate**:
@@ -363,10 +361,10 @@ Everything else depends on answering this question with a demonstrable "yes." If
 
 ## The Bottom Line
 
-**KAHU succeeds or fails based on one fundamental question: Can we create AI that feels like genuine care rather than helpful service?**
+**KAHU succeeds or fails based on one fundamental question: Can we create AI that serves consciousness development rather than corporate profits or authoritarian control?**
 
-Everything else - governance, scaling, movement building - depends on first proving that the guardian experience is real, measurable, and meaningfully different from existing AI assistants.
+The technical capabilities now exist - advanced AI models approaching human-level reasoning, fine-tuning methodologies for consciousness-focused development, and community governance frameworks for democratic ownership.
 
-**The next 30 days will determine whether KAHU is possible or remains beautiful philosophy.**
+**The next 30 days will determine whether KAHU represents a viable alternative to corporate extraction and authoritarian AI control, or remains beautiful philosophy.**
 
-*Focus ruthlessly on proving the guardian experience. Everything else follows from that foundation.*
+*Focus ruthlessly on proving the guardian experience is achievable with cutting-edge AI. Everything else follows from that foundation.*
