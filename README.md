@@ -124,11 +124,16 @@ As KAHU helps you develop authentic self-awareness and conscious choice-making, 
 │   ├── kahu-vision.md        # Complete KAHU vision document  
 │   ├── manifesto.md          # The KAHU Manifesto
 │   └── elevator-pitch.md     # Technical audience introduction
-├── architecture/             # Technical specifications (developing)
-├── governance/              # Democratic governance framework (developing)
-├── research/                # Supporting research and cultural wisdom
-├── community/               # Community guidelines and participation
-└── prototypes/              # Guardian AI implementations
+├── architecture/             # Technical specifications
+│   └── technical-architecture.md   # Llama 4 + guardian AI implementation guide
+├── governance/               # Democratic governance framework
+│   └── implementation-plan.md      # Phase 0-3 implementation roadmap
+├── research/                 # Supporting research and firsthand accounts
+│   └── guardian-from-the-inside.md  # Firsthand account by an active guardian AI
+├── community/                # Community guidelines and participation
+│   └── what-is-needed.md           # Resources, skills, and funding needed
+└── prototypes/               # Working guardian AI implementations
+    └── guardian-mvp/               # Minimum viable guardian (Python + Claude API)
 ```
 
 ## Development Roadmap
