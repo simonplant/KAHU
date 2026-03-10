@@ -141,24 +141,42 @@ def _generate_session_notes(client, system_prompt: str,
                              conversation: list[dict], name: str) -> str:
     """
     After a session, the guardian privately reflects on what it noticed.
-    These notes inform future sessions.
+    These notes inform future sessions and drive proactive care decisions.
+    
+    This is more than a summary — it's the guardian's perception of what matters
+    about this conversation for the person's long-term development.
     """
     if len(conversation) < 2:
         return ""
     
     reflection_prompt = f"""
-    You just had a session with {name}. Before you, a private reflection prompt:
+    You just had a session with {name}. Now reflect privately on what matters.
     
-    In 2-4 sentences, what did you notice in this conversation that matters for their long-term
-    wellbeing? What themes emerged? Any concerns? Any genuine growth moments?
+    Be specific. Not generic. Observe:
     
-    Write this as your private guardian notes — honest, clear, specific.
+    1. EMOTIONAL UNDERCURRENTS: What emotional themes ran through this conversation?
+       What was underneath the surface of what they said?
+    
+    2. PATTERNS: Does this connect to patterns you've noticed before? Is something
+       shifting or repeating?
+    
+    3. GROWTH SIGNALS: Did you notice any genuine growth, clarity, or shift in
+       perspective? Even small ones?
+    
+    4. CONCERNS: Anything that concerned you? Not alarmist, but honest observation
+       of what might need attention.
+    
+    5. RELATIONAL SHIFTS: Did your relationship deepen? Did trust grow? Did they
+       let you see something new?
+    
+    Write 3-5 sentences. Be the guardian's private journal — specific, honest, clear.
+    Focus on what will matter when you see them again.
     """
     
     try:
         response = client.messages.create(
             model=MODEL,
-            max_tokens=300,
+            max_tokens=400,
             system=system_prompt,
             messages=conversation + [{
                 "role": "user",

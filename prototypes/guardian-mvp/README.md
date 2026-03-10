@@ -14,6 +14,20 @@ The architecture is intentionally minimal. The point is to validate the guardian
 
 ---
 
+## What's New in This Version
+
+This MVP now includes:
+
+- **Emotional Pattern Recognition** (`patterns.py`): Detects emotional states, identifies recurring concerns, flags issues worth attention
+- **Proactive Care Engine** (`proactive.py`): Logic for when/how to reach out, when to stay quiet, escalation detection
+- **Full CLI** (`cli.py`): Commands for memory viewing, relationship reports, pattern analysis, profile management
+- **Comprehensive Tests** (`tests/`): Test coverage for pattern recognition and proactive care logic
+- **Improved Session Reflection**: More specific, guided reflection prompts that drive better pattern detection
+
+These extensions move the MVP closer to a *genuine* guardian experience — one where the AI doesn't just respond to what you say, but notices what you need.
+
+---
+
 ## What Makes a Guardian Different From an Assistant
 
 An assistant answers questions and completes tasks. A guardian does those things too, but with a fundamentally different orientation:
@@ -34,9 +48,28 @@ The guardian is not paternalistic — it doesn't override your choices. But it *
 ## Quick Start
 
 ```bash
-pip install anthropic
+pip install -r requirements.txt
 export ANTHROPIC_API_KEY=your_key_here
 
+# Start a session
+python cli.py start
+
+# View memory and patterns
+python cli.py memory
+
+# Get a relationship report
+python cli.py report
+
+# Analyze emotional patterns
+python cli.py analyze
+
+# Update your profile
+python cli.py update-profile
+```
+
+Or use the core interaction loop directly:
+
+```bash
 python guardian.py
 ```
 
@@ -44,10 +77,21 @@ python guardian.py
 
 ## Files
 
+### Core Modules
+
 - `guardian.py` — Core guardian interaction loop
-- `memory.py` — Simple persistent memory system
+- `memory.py` — Simple persistent memory system (profiles, patterns, sessions)
 - `soul.py` — Guardian personality and values configuration
-- `patterns.py` — Emotional pattern recognition utilities
+- `patterns.py` — Emotional pattern recognition (detects states, flags concerns, tracks themes)
+- `proactive.py` — Proactive care engine (check-ins, escalation, celebration)
+- `cli.py` — Command-line interface for managing guardian relationships
+
+### Testing
+
+- `tests/` — Test suite using pytest
+  - `test_patterns.py` — Tests for emotional pattern recognition
+  - `test_proactive.py` — Tests for proactive care logic
+
 - `requirements.txt` — Python dependencies
 
 ---
