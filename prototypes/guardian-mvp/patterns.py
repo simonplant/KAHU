@@ -24,7 +24,7 @@ class EmotionalPatternRecognizer:
     
     # Emotional state keywords — recognizable, not comprehensive
     EMOTIONAL_STATES = {
-        "overwhelmed": ["overwhelmed", "swamped", "drowning", "can't keep up", "too much"],
+        "overwhelmed": ["overwhelmed", "overwhelming", "overwhelm", "swamped", "drowning", "can't keep up", "too much"],
         "anxious": ["anxious", "nervous", "worried", "stressed", "tense", "on edge"],
         "depressed": ["depressed", "hopeless", "numb", "empty", "pointless", "what's the point"],
         "frustrated": ["frustrated", "irritated", "annoyed", "fed up", "exasperated"],
@@ -38,7 +38,7 @@ class EmotionalPatternRecognizer:
     
     # Behavioral patterns that might indicate issues
     CONCERN_PATTERNS = {
-        "isolation": ["alone", "don't want to see anyone", "staying in", "withdrawn"],
+        "isolation": ["alone", "isolating", "don't want to see anyone", "staying in", "withdrawn"],
         "substance_reliance": ["drinking more", "using more", "can't sleep without", "dependent on"],
         "self_criticism": ["my fault", "i'm the problem", "i'm broken", "i'm worthless", "i never"],
         "avoidance": ["not dealing with", "ignoring", "avoiding", "pretending it's fine"],

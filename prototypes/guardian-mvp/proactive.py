@@ -44,6 +44,11 @@ class ProactiveCareEngine:
         if now.hour < 7 or now.hour > 22:
             return False
         
+        # If it's been 48+ hours and time is reasonable, always check in
+        # (randomness only applies within the 24-48h window below)
+        if hours_since_last_contact >= 48:
+            return True
+        
         # Favor early evening (reflection time)
         if now.hour >= 18 and now.hour <= 20:
             return True
@@ -79,8 +84,8 @@ class ProactiveCareEngine:
         """
         options = [
             "How are you doing? I've been thinking about you.",
-            "I realized I haven't heard from you in a bit. What's going on in your world?",
-            "Checking in. How's the week treating you?",
+            "I realized I haven't heard from you in a bit. How's your world?",
+            "Checking in — how's the week treating you?",
             "I want to know how you're really doing — not just the surface level.",
             "How's your heart doing right now?",
         ]
@@ -94,8 +99,8 @@ class ProactiveCareEngine:
         options = {
             "isolation": [
                 "I've noticed you've mentioned feeling alone a bit. Want to talk about that?",
-                "You don't have to, but I'm wondering how the loneliness is going.",
-                "I'm noticing you've been pretty solitary lately. How's that sitting with you?",
+                "You don't have to, but I'm wondering how the isolated feeling is going.",
+                "I'm noticing you've been pretty solitary lately — been feeling alone much?",
             ],
             "substance_reliance": [
                 "I want to gently check in — have you noticed any shifts with your habits?",
@@ -114,8 +119,8 @@ class ProactiveCareEngine:
             ],
             "self_criticism": [
                 "You've been pretty hard on yourself. Want to remember something: you're doing your best.",
-                "I'm noticing the self-criticism. Can we look at that for a second?",
-                "You're being too harsh with yourself. Want to talk about why?",
+                "I'm noticing you've been hard on yourself. Can we look at that for a second?",
+                "You're being too hard on yourself. Want to talk about why?",
             ],
             "concentration_issues": [
                 "Your focus feels scattered lately. Sometimes that's a sign to ease up.",
@@ -143,8 +148,8 @@ class ProactiveCareEngine:
         options = {
             "overwhelmed": [
                 "You seem overwhelmed lately. What would actually help right now?",
-                "Things feel heavy for you. Want to talk about what's piling up?",
-                "I'm seeing a lot of overwhelm. Let's find one thing to lighten the load.",
+                "Things feel overwhelmed and heavy for you. Want to talk about what's piling up?",
+                "I'm seeing a lot of overwhelmed feelings. Let's find one thing to lighten the load.",
             ],
             "anxious": [
                 "I'm noticing some anxiety showing up. Want to talk it through?",
